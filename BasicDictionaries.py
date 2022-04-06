@@ -12,15 +12,15 @@ for english, french in dict.items():
 print('\n')
 # There is also a method named values(), which words similarly to keys(), but returns a list of values.
 
-dict = {"cat" : "chat", "dog" : "chien", "horse" : "cheval"}
+dict = {"cat" : "chat", "dog" : "yak", "horse" : "lion"}
 
 for french in dict.values():
     print(french)
 
 # merging two dictionaries in python
 
-x = {"shit": "I hate you"}
-y = {"Bitch": " I don't understand you!!!"}
+x = {"hello": "World"}
+y = {"milk": "1.87$"}
 
 z = {**x, **y}
 print(x)
@@ -31,7 +31,7 @@ print("This is the merged dictionary", "\n",
 
 
 #modifying a dictionary is easy too
-dict = {"cat" : "chat", "dog" : "chien", "horse" : "cheval"}
+dict = {"cat" : "chat", "dog" : "yak", "horse" : "lion"}
 
 dict['cat'] = 'minou'
 print(dict)
