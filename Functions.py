@@ -11,6 +11,7 @@ print("hello world ")
 def to_farenheit(celsius):
     f = celsius *9 / 5 + 32
     return f
+
 temp = int(input("what is the temperature? :    "))
 degrees = to_farenheit(temp)
 print(str(degrees)+ " degrees")
@@ -20,6 +21,7 @@ print(str(degrees)+ " degrees")
 def to_miles(km):
     miles = km / 1.609
     return miles
+
 km = float(input("How many Kilometers? "))
 miles =to_miles(km)
 print(str(miles) + " miles")
@@ -32,6 +34,7 @@ def encode(numbers):
     for n in numbers:
         ns.append(n * 8.15)
     return ns
+
 numbers1 = [4, 8, 15, 16, 23, 42]
 numbers2 = encode(numbers1)
 print(numbers2)
